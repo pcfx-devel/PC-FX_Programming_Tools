@@ -9,10 +9,18 @@ palette entries.  Does not currently take into account the RGB-to-YCrCb
 conversion inside of the HuC6260, but yields a decent approximation of
 colours.
 
+
 ## python/cvtdefpal
 
 Converter for PCEAS 'defpal'-style palette entry sequences (RGB) to
 corresponding 16-bit YUV values for inclusion into PC-FX programs
 
+
+## python/cvtgfx
+
+Converter which takes ASCII-art style graphics files, and creates character and sprite
+graphic data for HuC6270 video processor usage.
+
+[See here for examples](python/examples/cvtgfx/README.md)
 
 

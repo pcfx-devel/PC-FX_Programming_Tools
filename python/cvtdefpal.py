@@ -38,11 +38,11 @@ def calculate(red, green, blue):
     g = green * 36
     b = blue * 36
 
-    yfloat = (0.299 * r) + (0.587 * g) + (0.114 * b)
+    yfloat = (0.2990 * r) + (0.5870 * g) + (0.1140 * b)
     y = int(yfloat)
-    ufloat = (-0.169 * r) + (-0.331 * g) + (0.499 * b) + 128
+    ufloat = (-0.1686 * r) + (-0.3311 * g) + (0.4997 * b) + 128
     u = int(ufloat+0.5)>>4
-    vfloat = (0.499 * r) + (-0.418 * g) + (-0.0813 * b) + 128
+    vfloat = (0.4998 * r) + (-0.4185 * g) + (-0.0813 * b) + 128
     v = int(vfloat+0.5)>>4 
 
 #    print("Y = ", yfloat)
